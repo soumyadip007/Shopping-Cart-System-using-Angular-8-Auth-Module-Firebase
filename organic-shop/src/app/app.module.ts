@@ -19,6 +19,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
 import { OrderSuccessComponent } from './order-success/order-success.component';
 import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AdminProductsComponent,
     AdminOrdersComponent,
     OrderSuccessComponent,
-    LoginComponent
+    LoginComponent,
+    MyOrdersComponent
   ],
   imports: [
     BrowserModule,
