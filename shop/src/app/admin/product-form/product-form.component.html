@@ -11,7 +11,7 @@
         <label for="price">Price</label>
          <div class="input-group">
             <span class="input-group-addon">$</span>
-        <input ngModel name="price"  id="price" type="number" class="form-control" required>
+        <input #price="ngModel" ngModel name="price"  id="price" type="number" class="form-control" required>
         </div>
     </div>
 
@@ -27,7 +27,7 @@
 
     <div class="form-group">
         <label for="imageUrl">Image Url</label>
-        <input ngModel name="imageUrl"  id="imageUrl"  type="text" class="form-control" requiredrequired>
+        <input  #imageUrl="ngModel" ngModel name="imageUrl"  id="imageUrl"  type="text" class="form-control" requiredrequired>
     </div>
 
     <button class="btn btn-primary" >Save</button>
