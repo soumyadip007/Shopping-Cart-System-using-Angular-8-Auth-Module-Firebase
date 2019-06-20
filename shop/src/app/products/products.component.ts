@@ -6,14 +6,13 @@ import { CategoryService } from '../category.service';
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent {
-
-  categories$;
-
-  constructor(catagoryService: CategoryService) {
-    this.categories$=catagoryService.getCategories;
-   }
+export class ProductsComponent implements OnInit {
 
  
+  ngOnInit() {
+
+    
+
+  }
 
 }
