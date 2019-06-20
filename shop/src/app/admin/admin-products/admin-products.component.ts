@@ -8,7 +8,7 @@ import { ProductserviceService } from 'src/app/productservice.service';
 })
 export class AdminProductsComponent implements OnInit {
 
-  product$;
+  product$ ;
 
   constructor(private prod: ProductserviceService) { 
 
