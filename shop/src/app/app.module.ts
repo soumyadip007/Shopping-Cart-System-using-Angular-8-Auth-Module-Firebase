@@ -20,6 +20,7 @@ import { LoginComponent } from './login/login.component';
 import { environment } from 'src/environments/environment';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ProductFormComponent } from './admin/product-form/product-form.component';
+import { CategoryService } from './category.service';
 
 @NgModule({
   declarations: [
@@ -34,8 +35,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
     OrderSuccessComponent,
     LoginComponent,
     MyOrdersComponent,
-    ProductFormComponent,
-    CategoryComponent
+    ProductFormComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +59,9 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
       {path:'admin/orders', component: AdminOrdersComponent}
     ])
   ],
-  providers: [],
+  providers: [
+    CategoryService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
