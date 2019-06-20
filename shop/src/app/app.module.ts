@@ -53,6 +53,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
       
       {path:'my/orders', component: MyOrdersComponent},
       {path:'admin/products', component: AdminProductsComponent},
+      {path:'admin/products/new', component: ProductFormComponent},
       {path:'admin/orders', component: AdminOrdersComponent}
     ])
   ],
