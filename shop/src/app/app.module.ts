@@ -19,6 +19,7 @@ import { OrderSuccessComponent } from './order-success/order-success.component';
 import { LoginComponent } from './login/login.component';
 import { environment } from 'src/environments/environment';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { ProductFormComponent } from './admin/product-form/product-form.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
     AdminOrdersComponent,
     OrderSuccessComponent,
     LoginComponent,
-    MyOrdersComponent
+    MyOrdersComponent,
+    ProductFormComponent
   ],
   imports: [
     BrowserModule,
