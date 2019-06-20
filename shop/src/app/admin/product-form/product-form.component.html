@@ -11,10 +11,10 @@
         <label for="price">Price</label>
          <div class="input-group">
             <span class="input-group-addon">$</span>
-        <input #price="ngModel" ngModel name="price"  id="price" type="number" class="form-control" required>
-        <div class="alert alert-danger" *ngIf="title.touched && title.invalid">Price is required. </div>
-    </div>    
+        <input  ngModel name="price"  id="price" type="number" class="form-control"#price="ngModel" required>
+       
     </div>
+    <div class="alert alert-danger" *ngIf="title.touched && title.invalid">Price is required. </div>  
     </div>
 
     <div class="form-group">
@@ -30,8 +30,8 @@
     <div class="form-group">
         <label for="imageUrl">Image Url</label>
         <input  #imageUrl="ngModel" ngModel name="imageUrl"  id="imageUrl"  type="text" class="form-control" requiredrequired>
-        <div class="alert alert-danger" *ngIf="title.touched && title.invalid">Image is required. </div>
-    </div>
+        <div class="alert alert-danger" *ngIf="title.touched && title.invalid">Image is required. </div>  
+  
     </div>
 
     <button class="btn btn-primary" >Save</button>
