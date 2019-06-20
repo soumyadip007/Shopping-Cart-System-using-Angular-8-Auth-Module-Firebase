@@ -22,6 +22,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ProductFormComponent } from './admin/product-form/product-form.component';
 import { CategoryService } from './category.service';
 import { FormsModule } from '@angular/forms';
+import { ProductserviceService } from './productservice.service';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { FormsModule } from '@angular/forms';
     ])
   ],
   providers: [
-    CategoryService
+    CategoryService,
+    ProductserviceService
   ],
   bootstrap: [AppComponent]
 })

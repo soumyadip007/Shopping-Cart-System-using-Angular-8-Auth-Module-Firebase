@@ -9,12 +9,13 @@ import { CategoryService } from 'src/app/category.service';
 export class ProductFormComponent implements OnInit {
   categories$;
 
-  constructor(catagoryService: CategoryService) {
+  constructor(catagoryService: CategoryService, productService) {
     this.categories$=catagoryService.getCategories;
    }
 
 
    save(product){
+
      console.log(product);
    }
 
