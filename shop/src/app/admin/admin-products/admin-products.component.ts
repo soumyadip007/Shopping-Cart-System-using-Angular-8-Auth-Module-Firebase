@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFireDatabase} from 'angularfire2/database';
 import { ProductserviceService } from 'src/app/productservice.service';
 
 @Component({
