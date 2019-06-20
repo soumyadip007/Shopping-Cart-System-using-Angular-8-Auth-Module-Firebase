@@ -40,6 +40,12 @@
                 </form>
     </div>
     <div class="col-md-6">
-        
+            <div class="card" style="width: 18rem;">
+                    <img [src]="imageUrl.value" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">{{title.value}}</h5>
+                      <p class="card-text">{{price.value | currency:'USD':true }}</p>
+                    </div>
+                  </div>
         </div>
 </div>
