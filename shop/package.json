@@ -24,6 +24,7 @@
     "angularfire2": "^5.2.1",
     "firebase": "^6.2.1",
     "ng2-validation": "^4.2.0",
+    "patch-package": "^6.1.2",
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.5.2",
     "tslib": "^1.9.0",
