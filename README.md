@@ -2,8 +2,6 @@
 
 
 
-[![Build Status](https://travis-ci.org/rails/spring.svg?branch=master)](https://travis-ci.org/rails/spring)
-[![Gem Version](https://badge.fury.io/rb/spring.svg)](http://badge.fury.io/rb/spring)
 
 ## Development server
 
